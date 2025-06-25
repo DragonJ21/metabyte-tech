@@ -29,8 +29,8 @@ export default function PrivacyPolicyPage() {
                   <strong>Last updated:</strong> December 25, 2024
                 </p>
                 <p className="text-muted-foreground">
-                  METABYTE.TECH ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy
-                  explains how your personal information is collected, used, and disclosed by METABYTE.TECH.
+                  METABYTE ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy
+                  explains how your personal information is collected, used, and disclosed by METABYTE.
                 </p>
               </div>
 

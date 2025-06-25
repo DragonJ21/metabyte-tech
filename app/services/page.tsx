@@ -17,7 +17,7 @@ export default function ServicesPage() {
                 Our <span className="text-[#0081FB]">Services</span>
               </h1>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                Comprehensive IT outsourcing solutions designed to accelerate your business growth and digital
+                Comprehensive IT solutions designed to accelerate your business growth and digital
                 transformation.
               </p>
             </div>

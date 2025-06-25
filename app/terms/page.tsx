@@ -29,7 +29,7 @@ export default function TermsOfServicePage() {
                   <strong>Last updated:</strong> December 25, 2024
                 </p>
                 <p className="text-muted-foreground">
-                  These Terms of Service ("Terms") govern your use of METABYTE.TECH's website and services. By accessing
+                  These Terms of Service ("Terms") govern your use of METABYTE's website and services. By accessing
                   or using our services, you agree to be bound by these Terms.
                 </p>
               </div>
@@ -37,7 +37,7 @@ export default function TermsOfServicePage() {
               <div>
                 <h2 className="text-2xl font-bold mb-4">1. Acceptance of Terms</h2>
                 <p className="text-muted-foreground">
-                  By accessing and using METABYTE.TECH's services, you accept and agree to be bound by the terms and
+                  By accessing and using METABYTE's services, you accept and agree to be bound by the terms and
                   provision of this agreement. If you do not agree to abide by the above, please do not use this
                   service.
                 </p>
@@ -46,7 +46,7 @@ export default function TermsOfServicePage() {
               <div>
                 <h2 className="text-2xl font-bold mb-4">2. Description of Service</h2>
                 <div className="text-muted-foreground space-y-2">
-                  <p>METABYTE.TECH provides IT outsourcing services including but not limited to:</p>
+                  <p>METABYTE provides IT services including but not limited to:</p>
                   <ul className="list-disc pl-6 space-y-1">
                     <li>Cloud solutions and migration services</li>
                     <li>Web and mobile application development</li>
@@ -116,7 +116,7 @@ export default function TermsOfServicePage() {
                     <h3 className="text-lg font-semibold mb-2 text-foreground">Our IP</h3>
                     <p>
                       All content, trademarks, and intellectual property on our website and in our services remain the
-                      property of METABYTE.TECH unless otherwise specified.
+                      property of METABYTE unless otherwise specified.
                     </p>
                   </div>
                   <div>
@@ -140,7 +140,7 @@ export default function TermsOfServicePage() {
               <div>
                 <h2 className="text-2xl font-bold mb-4">8. Limitation of Liability</h2>
                 <p className="text-muted-foreground">
-                  To the maximum extent permitted by law, METABYTE.TECH shall not be liable for any indirect,
+                  To the maximum extent permitted by law, METABYTE shall not be liable for any indirect,
                   incidental, special, consequential, or punitive damages, including without limitation, loss of
                   profits, data, use, goodwill, or other intangible losses.
                 </p>
@@ -149,7 +149,7 @@ export default function TermsOfServicePage() {
               <div>
                 <h2 className="text-2xl font-bold mb-4">9. Indemnification</h2>
                 <p className="text-muted-foreground">
-                  You agree to indemnify and hold harmless METABYTE.TECH from any claims, damages, or expenses arising
+                  You agree to indemnify and hold harmless METABYTE from any claims, damages, or expenses arising
                   from your use of our services or violation of these Terms.
                 </p>
               </div>

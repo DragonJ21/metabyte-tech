@@ -104,7 +104,7 @@ export default function CareersPage() {
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                Join <span className="text-[#0081FB]">METABYTE.TECH</span>
+                Join <span className="text-[#0081FB]">METABYTE</span>
               </h1>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
                 Build your career with a team that values innovation, growth, and making a real impact in the tech
@@ -157,7 +157,7 @@ export default function CareersPage() {
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Our Culture</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  At METABYTE.TECH, we believe that great technology comes from great people. Our culture is built on
+                  At METABYTE, we believe that great technology comes from great people. Our culture is built on
                   collaboration, innovation, and continuous learning.
                 </p>
                 <p>

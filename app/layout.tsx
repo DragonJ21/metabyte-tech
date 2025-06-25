@@ -6,10 +6,10 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "METABYTE.TECH - IT Outsourcing Services",
+  title: "METABYTE.TECH - Software Solutions",
   description:
-    "Professional IT outsourcing services including cloud solutions, web development, mobile apps, and digital transformation.",
-    generator: 'v0.dev'
+    "Professional IT services including cloud solutions, web development, mobile apps, and digital transformation.",
+    // generator: 'v0.dev'
 }
 
 export default function RootLayout({

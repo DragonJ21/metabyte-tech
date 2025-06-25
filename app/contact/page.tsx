@@ -46,8 +46,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-bold">Email</h3>
-                    <p className="text-muted-foreground">contact@metabyte.tech</p>
-                    <p className="text-sm text-muted-foreground">We'll respond within 24 hours</p>
+                    <p className="text-muted-foreground">support@metabyte.tech</p>
+                    <p className="text-sm text-muted-foreground">We'll respond within 4 business hours</p>
                   </div>
                 </div>
 
@@ -58,7 +58,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-bold">Phone</h3>
                     <p className="text-muted-foreground">+1 (555) 123-4567</p>
-                    <p className="text-sm text-muted-foreground">Mon-Fri, 9AM-6PM EST</p>
+                    <p className="text-sm text-muted-foreground">Mon-Fri, 9AM-6PM AEST</p>
                   </div>
                 </div>
 
@@ -69,9 +69,9 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-bold">Office</h3>
                     <p className="text-muted-foreground">
-                      123 Tech Street
+                      4 Columbia Court
                       <br />
-                      Silicon Valley, CA 94000
+                      Norwest, NSW 2153
                     </p>
                     <p className="text-sm text-muted-foreground">By appointment only</p>
                   </div>

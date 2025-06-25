@@ -46,7 +46,7 @@ export default function JobApplicationPage() {
             <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl">
               Apply for <span className="text-[#0081FB]">{position}</span>
             </h1>
-            <p className="text-gray-500 text-lg">{department} • METABYTE.TECH</p>
+            <p className="text-gray-500 text-lg">{department} • METABYTE</p>
           </div>
         </div>
       </section>
@@ -208,7 +208,7 @@ export default function JobApplicationPage() {
                     <h3 className="text-lg font-semibold">Cover Letter</h3>
                     <div className="space-y-2">
                       <label htmlFor="cover-letter" className="text-sm font-medium">
-                        Why do you want to work at METABYTE.TECH? *
+                        Why do you want to work at METABYTE? *
                       </label>
                       <Textarea
                         id="cover-letter"

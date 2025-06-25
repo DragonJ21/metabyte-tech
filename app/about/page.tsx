@@ -63,8 +63,8 @@ export default function AboutPage() {
   const stats = [
     { number: "500+", label: "Projects Completed" },
     { number: "150+", label: "Happy Clients" },
-    { number: "100+", label: "Team Members" },
-    { number: "10+", label: "Years Experience" },
+    { number: "20+", label: "Team Members" },
+    { number: "5+", label: "Years Experience" },
   ]
 
   return (
@@ -75,10 +75,10 @@ export default function AboutPage() {
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                About <span className="text-[#0081FB]">METABYTE.TECH</span>
+                About <span className="text-[#0081FB]">METABYTE</span>
               </h1>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                Empowering businesses through innovative technology solutions and expert IT outsourcing services.
+                Empowering businesses through innovative technology solutions and expert IT services.
               </p>
             </div>
           </div>
@@ -93,9 +93,9 @@ export default function AboutPage() {
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Our Story</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Founded in 2014, METABYTE.TECH began with a simple mission: to help businesses leverage technology for
+                  Founded in 2018, METABYTE began with a simple mission: to help businesses leverage technology for
                   growth and innovation. What started as a small team of passionate developers has grown into a
-                  comprehensive IT outsourcing partner serving clients worldwide.
+                  comprehensive IT partner serving clients worldwide.
                 </p>
                 <p>
                   Over the years, we've evolved from a development shop to a full-service technology partner, offering
@@ -155,7 +155,7 @@ export default function AboutPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  To be the global leader in IT outsourcing, recognized for our technical excellence, innovative
+                  To be the global leader in IT, recognized for our technical excellence, innovative
                   solutions, and unwavering commitment to client success and long-term partnerships.
                 </p>
               </CardContent>
