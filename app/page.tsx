@@ -204,25 +204,25 @@ export default function HomePage() {
           </div>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             {[
-              { name: "Sarah Johnson", role: "CEO & Founder", image: "Professional+Business+Woman+CEO" },
-              { name: "Michael Chen", role: "CTO", image: "Asian+Male+Technology+Executive" },
-              { name: "Emily Rodriguez", role: "Head of Development", image: "Hispanic+Female+Software+Developer" },
-              { name: "David Kim", role: "Head of Design", image: "Asian+Male+UX+Designer" },
-            ].map((member, index) => (
-              <Card key={index} className="hover:shadow-lg transition-shadow">
-                <CardContent className="p-6 text-center">
-                  <div className="aspect-square bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg mb-4 overflow-hidden">
-                    <img
-                      src={`/placeholder.svg?height=200&width=200&text=${member.image}`}
-                      alt={member.name}
-                      className="object-cover w-full h-full"
-                    />
-                  </div>
-                  <h3 className="font-bold text-lg mb-1 text-gray-900">{member.name}</h3>
-                  <p className="text-[#0081FB] font-medium">{member.role}</p>
-                </CardContent>
-              </Card>
-            ))}
+  { name: "Sarah Johnson", role: "CEO & Founder", image: "sarah.jpg" },
+  { name: "Michael Chen", role: "CTO", image: "michael.jpg" },
+  { name: "Emily Rodriguez", role: "Head of Development", image: "emily.jpg" },
+  { name: "David Kim", role: "Head of Design", image: "david.jpg" },
+].map((member, index) => (
+  <Card key={index} className="hover:shadow-lg transition-shadow">
+    <CardContent className="p-6 text-center">
+      <div className="aspect-square bg-gray-100 rounded-lg mb-4 overflow-hidden">
+        <img
+          src={member.image}
+          alt={member.name}
+          className="object-cover w-full h-full"
+        />
+      </div>
+      <h3 className="font-bold text-lg mb-1 text-gray-900">{member.name}</h3>
+      <p className="text-[#0081FB] font-medium">{member.role}</p>
+    </CardContent>
+  </Card>
+))}
           </div>
         </div>
       </section>

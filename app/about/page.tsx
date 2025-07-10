@@ -35,28 +35,28 @@ export default function AboutPage() {
       role: "CEO & Founder",
       experience: "15+ years",
       expertise: "Technology Strategy, Business Development",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/sarah.jpg?height=300&width=300",
     },
     {
       name: "Michael Chen",
       role: "CTO",
       experience: "12+ years",
       expertise: "Cloud Architecture, DevOps, System Design",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/michael.jpg?height=300&width=300",
     },
     {
       name: "Emily Rodriguez",
       role: "Head of Development",
       experience: "10+ years",
       expertise: "Full-Stack Development, Team Leadership",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/emily.jpg?height=300&width=300",
     },
     {
       name: "David Kim",
       role: "Head of Design",
       experience: "8+ years",
       expertise: "UI/UX Design, Product Strategy",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/david.jpg?height=300&width=300",
     },
   ]
 
