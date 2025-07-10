@@ -41,9 +41,9 @@ export default function CareersPage() {
 
   const openPositions = [
     {
-      title: "Senior Full Stack Developer",
+      title: "Full Stack Developer",
       department: "Engineering",
-      location: "Remote / San Francisco",
+      location: "Remote / Sydney",
       type: "Full-time",
       experience: "5+ years",
       skills: ["React", "Node.js", "TypeScript", "AWS", "PostgreSQL"],
@@ -52,7 +52,7 @@ export default function CareersPage() {
     {
       title: "Cloud Solutions Architect",
       department: "Cloud Services",
-      location: "Remote / New York",
+      location: "Remote / Sydney",
       type: "Full-time",
       experience: "7+ years",
       skills: ["AWS", "Azure", "Kubernetes", "Terraform", "DevOps"],
@@ -61,7 +61,7 @@ export default function CareersPage() {
     {
       title: "Mobile App Developer",
       department: "Mobile",
-      location: "Remote / Austin",
+      location: "Remote / Sydney",
       type: "Full-time",
       experience: "4+ years",
       skills: ["React Native", "Swift", "Kotlin", "Firebase", "Redux"],
@@ -70,7 +70,7 @@ export default function CareersPage() {
     {
       title: "DevOps Engineer",
       department: "Infrastructure",
-      location: "Remote / Seattle",
+      location: "Remote / Sydney",
       type: "Full-time",
       experience: "3+ years",
       skills: ["Docker", "Kubernetes", "Jenkins", "AWS", "Monitoring"],
@@ -79,7 +79,7 @@ export default function CareersPage() {
     {
       title: "UI/UX Designer",
       department: "Design",
-      location: "Remote / Los Angeles",
+      location: "Remote / Sydney",
       type: "Full-time",
       experience: "3+ years",
       skills: ["Figma", "Adobe Creative Suite", "Prototyping", "User Research"],
@@ -88,7 +88,7 @@ export default function CareersPage() {
     {
       title: "Project Manager",
       department: "Operations",
-      location: "Remote / Chicago",
+      location: "Remote / Sydney",
       type: "Full-time",
       experience: "5+ years",
       skills: ["Agile", "Scrum", "Jira", "Stakeholder Management", "Risk Assessment"],
