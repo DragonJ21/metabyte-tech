@@ -3,20 +3,20 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Layout } from "@/components/layout"
-import { Clock, Mail, MapPin, Phone } from "lucide-react"
+import { Clock, Mail, MapPin } from "lucide-react"
 
 export default function ContactPage() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-background to-muted">
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-violet-50 via-purple-50 to-fuchsia-100">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2">
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
+              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-gray-900">
                 Get In <span className="text-[#0081FB]">Touch</span>
               </h1>
-              <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
+              <p className="mx-auto max-w-[700px] text-gray-600 md:text-xl">
                 Ready to transform your business? Let's discuss your project and explore how we can help you achieve
                 your goals.
               </p>
@@ -26,14 +26,14 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Form & Info */}
-      <section className="w-full py-12 md:py-24 lg:py-32">
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="grid gap-12 lg:grid-cols-2">
             {/* Contact Information */}
             <div className="space-y-8">
               <div className="space-y-4">
-                <h2 className="text-3xl font-bold tracking-tighter">Let's Start a Conversation</h2>
-                <p className="text-muted-foreground">
+                <h2 className="text-3xl font-bold tracking-tighter text-gray-900">Let's Start a Conversation</h2>
+                <p className="text-gray-600">
                   Whether you have a specific project in mind or just want to explore possibilities, we're here to help.
                   Reach out to us through any of the channels below.
                 </p>
@@ -45,20 +45,9 @@ export default function ContactPage() {
                     <Mail className="h-6 w-6 text-[#0081FB]" />
                   </div>
                   <div>
-                    <h3 className="font-bold">Email</h3>
-                    <p className="text-muted-foreground">support@metabyte.tech</p>
-                    <p className="text-sm text-muted-foreground">We'll respond within 4 business hours</p>
-                  </div>
-                </div>
-
-                <div className="flex items-center space-x-4">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-[#0081FB]/10">
-                    <Phone className="h-6 w-6 text-[#0081FB]" />
-                  </div>
-                  <div>
-                    <h3 className="font-bold">Phone</h3>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
-                    <p className="text-sm text-muted-foreground">Mon-Fri, 9AM-6PM AEST</p>
+                    <h3 className="font-bold text-gray-900">Email</h3>
+                    <p className="text-gray-600">contact@metabyte.tech</p>
+                    <p className="text-sm text-gray-500">We'll respond within 24 hours</p>
                   </div>
                 </div>
 
@@ -67,13 +56,12 @@ export default function ContactPage() {
                     <MapPin className="h-6 w-6 text-[#0081FB]" />
                   </div>
                   <div>
-                    <h3 className="font-bold">Office</h3>
-                    <p className="text-muted-foreground">
-                      4 Columbia Court
-                      <br />
-                      Norwest, NSW 2153
+                    <h3 className="font-bold text-gray-900">Office</h3>
+                    <p className="text-gray-600">
+                      Nexus Norwest
+                      <br />4 Columbia Ct, Norwest NSW 2153
                     </p>
-                    <p className="text-sm text-muted-foreground">By appointment only</p>
+                    <p className="text-sm text-gray-500">By appointment only</p>
                   </div>
                 </div>
 
@@ -82,9 +70,9 @@ export default function ContactPage() {
                     <Clock className="h-6 w-6 text-[#0081FB]" />
                   </div>
                   <div>
-                    <h3 className="font-bold">Business Hours</h3>
-                    <p className="text-muted-foreground">Monday - Friday: 9:00 AM - 6:00 PM EST</p>
-                    <p className="text-sm text-muted-foreground">Emergency support available 24/7</p>
+                    <h3 className="font-bold text-gray-900">Business Hours</h3>
+                    <p className="text-gray-600">Monday - Friday: 9:00 AM - 6:00 PM AEST</p>
+                    <p className="text-sm text-gray-500">Emergency support available 24/7</p>
                   </div>
                 </div>
               </div>
@@ -93,46 +81,40 @@ export default function ContactPage() {
             {/* Contact Form */}
             <Card>
               <CardHeader>
-                <CardTitle>Send us a message</CardTitle>
-                <CardDescription>
+                <CardTitle className="text-gray-900">Send us a message</CardTitle>
+                <CardDescription className="text-gray-600">
                   Fill out the form below and we'll get back to you within 24 hours with a detailed response.
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="grid grid-cols-2 gap-4">
                   <div className="space-y-2">
-                    <label htmlFor="first-name" className="text-sm font-medium">
+                    <label htmlFor="first-name" className="text-sm font-medium text-gray-700">
                       First name *
                     </label>
                     <Input id="first-name" placeholder="John" required />
                   </div>
                   <div className="space-y-2">
-                    <label htmlFor="last-name" className="text-sm font-medium">
+                    <label htmlFor="last-name" className="text-sm font-medium text-gray-700">
                       Last name *
                     </label>
                     <Input id="last-name" placeholder="Doe" required />
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <label htmlFor="email" className="text-sm font-medium">
+                  <label htmlFor="email" className="text-sm font-medium text-gray-700">
                     Email *
                   </label>
                   <Input id="email" placeholder="john@company.com" type="email" required />
                 </div>
                 <div className="space-y-2">
-                  <label htmlFor="company" className="text-sm font-medium">
+                  <label htmlFor="company" className="text-sm font-medium text-gray-700">
                     Company
                   </label>
                   <Input id="company" placeholder="Your Company" />
                 </div>
                 <div className="space-y-2">
-                  <label htmlFor="phone" className="text-sm font-medium">
-                    Phone
-                  </label>
-                  <Input id="phone" placeholder="+1 (555) 123-4567" type="tel" />
-                </div>
-                <div className="space-y-2">
-                  <label htmlFor="service" className="text-sm font-medium">
+                  <label htmlFor="service" className="text-sm font-medium text-gray-700">
                     Service Interest
                   </label>
                   <select
@@ -149,7 +131,7 @@ export default function ContactPage() {
                   </select>
                 </div>
                 <div className="space-y-2">
-                  <label htmlFor="budget" className="text-sm font-medium">
+                  <label htmlFor="budget" className="text-sm font-medium text-gray-700">
                     Project Budget
                   </label>
                   <select
@@ -165,7 +147,7 @@ export default function ContactPage() {
                   </select>
                 </div>
                 <div className="space-y-2">
-                  <label htmlFor="message" className="text-sm font-medium">
+                  <label htmlFor="message" className="text-sm font-medium text-gray-700">
                     Project Details *
                   </label>
                   <Textarea
@@ -176,7 +158,7 @@ export default function ContactPage() {
                   />
                 </div>
                 <Button className="w-full bg-[#0081FB] hover:bg-[#0066CC]">Send Message</Button>
-                <p className="text-xs text-muted-foreground text-center">
+                <p className="text-xs text-gray-500 text-center">
                   By submitting this form, you agree to our Privacy Policy and Terms of Service.
                 </p>
               </CardContent>
@@ -186,11 +168,13 @@ export default function ContactPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-muted/50">
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Frequently Asked Questions</h2>
-            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-gray-900">
+              Frequently Asked Questions
+            </h2>
+            <p className="max-w-[900px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Quick answers to common questions about our services and process
             </p>
           </div>
@@ -198,10 +182,10 @@ export default function ContactPage() {
           <div className="grid gap-6 md:grid-cols-2">
             <Card>
               <CardHeader>
-                <CardTitle className="text-lg">How quickly can you start a project?</CardTitle>
+                <CardTitle className="text-lg text-gray-900">How quickly can you start a project?</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">
+                <p className="text-gray-600">
                   We can typically start new projects within 1-2 weeks after contract signing, depending on project
                   complexity and team availability.
                 </p>
@@ -210,10 +194,10 @@ export default function ContactPage() {
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-lg">Do you work with startups?</CardTitle>
+                <CardTitle className="text-lg text-gray-900">Do you work with startups?</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">
+                <p className="text-gray-600">
                   Yes! We work with companies of all sizes, from early-stage startups to Fortune 500 enterprises,
                   tailoring our approach to your specific needs.
                 </p>
@@ -222,10 +206,10 @@ export default function ContactPage() {
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-lg">What's your pricing model?</CardTitle>
+                <CardTitle className="text-lg text-gray-900">What's your pricing model?</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">
+                <p className="text-gray-600">
                   We offer flexible pricing models including fixed-price projects, time & materials, and dedicated team
                   arrangements based on your preferences.
                 </p>
@@ -234,10 +218,10 @@ export default function ContactPage() {
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-lg">Do you provide ongoing support?</CardTitle>
+                <CardTitle className="text-lg text-gray-900">Do you provide ongoing support?</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">
+                <p className="text-gray-600">
                   We offer comprehensive maintenance and support packages to ensure your solution continues to perform
                   optimally after launch.
                 </p>

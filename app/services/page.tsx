@@ -9,15 +9,15 @@ export default function ServicesPage() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-background to-muted">
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-100">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2">
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
+              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-gray-900">
                 Our <span className="text-[#0081FB]">Services</span>
               </h1>
-              <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                Comprehensive IT solutions designed to accelerate your business growth and digital
+              <p className="mx-auto max-w-[700px] text-gray-600 md:text-xl">
+                Comprehensive IT outsourcing solutions designed to accelerate your business growth and digital
                 transformation.
               </p>
             </div>
@@ -26,15 +26,15 @@ export default function ServicesPage() {
       </section>
 
       {/* Services Grid */}
-      <section className="w-full py-12 md:py-24 lg:py-32">
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-white">
         <div className="container px-4 md:px-6">
           <div className="mx-auto grid max-w-6xl items-center gap-8 lg:grid-cols-2 lg:gap-12">
             {/* Cloud Solutions */}
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <Cloud className="h-16 w-16 text-[#0081FB] mb-4" />
-                <CardTitle className="text-2xl">Cloud Solutions</CardTitle>
-                <CardDescription className="text-base">
+                <CardTitle className="text-2xl text-gray-900">Cloud Solutions</CardTitle>
+                <CardDescription className="text-base text-gray-600">
                   Comprehensive cloud migration and management services to modernize your infrastructure.
                 </CardDescription>
               </CardHeader>
@@ -73,8 +73,8 @@ export default function ServicesPage() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <Globe className="h-16 w-16 text-[#0081FB] mb-4" />
-                <CardTitle className="text-2xl">Web Development</CardTitle>
-                <CardDescription className="text-base">
+                <CardTitle className="text-2xl text-gray-900">Web Development</CardTitle>
+                <CardDescription className="text-base text-gray-600">
                   Custom web applications built with cutting-edge technologies and modern frameworks.
                 </CardDescription>
               </CardHeader>
@@ -113,8 +113,8 @@ export default function ServicesPage() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <Smartphone className="h-16 w-16 text-[#0081FB] mb-4" />
-                <CardTitle className="text-2xl">Mobile Development</CardTitle>
-                <CardDescription className="text-base">
+                <CardTitle className="text-2xl text-gray-900">Mobile Development</CardTitle>
+                <CardDescription className="text-base text-gray-600">
                   Native and cross-platform mobile applications for iOS and Android platforms.
                 </CardDescription>
               </CardHeader>
@@ -153,8 +153,8 @@ export default function ServicesPage() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <Database className="h-16 w-16 text-[#0081FB] mb-4" />
-                <CardTitle className="text-2xl">Database Solutions</CardTitle>
-                <CardDescription className="text-base">
+                <CardTitle className="text-2xl text-gray-900">Database Solutions</CardTitle>
+                <CardDescription className="text-base text-gray-600">
                   Scalable database architecture, optimization, and management for enterprise applications.
                 </CardDescription>
               </CardHeader>
@@ -193,8 +193,8 @@ export default function ServicesPage() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <Users className="h-16 w-16 text-[#0081FB] mb-4" />
-                <CardTitle className="text-2xl">Team Augmentation</CardTitle>
-                <CardDescription className="text-base">
+                <CardTitle className="text-2xl text-gray-900">Team Augmentation</CardTitle>
+                <CardDescription className="text-base text-gray-600">
                   Scale your development team with our skilled professionals integrated into your workflow.
                 </CardDescription>
               </CardHeader>
@@ -233,8 +233,8 @@ export default function ServicesPage() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <Zap className="h-16 w-16 text-[#0081FB] mb-4" />
-                <CardTitle className="text-2xl">Digital Transformation</CardTitle>
-                <CardDescription className="text-base">
+                <CardTitle className="text-2xl text-gray-900">Digital Transformation</CardTitle>
+                <CardDescription className="text-base text-gray-600">
                   Modernize your business processes and technology stack for competitive advantage.
                 </CardDescription>
               </CardHeader>
@@ -273,12 +273,14 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-muted/50">
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Need a Custom Solution?</h2>
-              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900">
+                Need a Custom Solution?
+              </h2>
+              <p className="mx-auto max-w-[600px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 We specialize in creating tailored solutions that fit your unique business requirements.
               </p>
             </div>

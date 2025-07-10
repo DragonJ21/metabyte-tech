@@ -42,7 +42,7 @@ export default function GeneralApplicationPage() {
             <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl">
               General <span className="text-[#0081FB]">Application</span>
             </h1>
-            <p className="text-gray-500 text-lg">Submit your resume for future opportunities at METABYTE</p>
+            <p className="text-gray-500 text-lg">Submit your resume for future opportunities at METABYTE.TECH</p>
           </div>
         </div>
       </section>

@@ -38,24 +38,24 @@ export default function AboutPage() {
       image: "/placeholder.svg?height=300&width=300",
     },
     {
-      name: "Emily Rodriguez",
+      name: "Michael Chen",
       role: "CTO",
       experience: "12+ years",
       expertise: "Cloud Architecture, DevOps, System Design",
       image: "/placeholder.svg?height=300&width=300",
     },
     {
-      name: "Vivaswaan Sanghani",
+      name: "Emily Rodriguez",
       role: "Head of Development",
-      experience: "5+ years",
+      experience: "10+ years",
       expertise: "Full-Stack Development, Team Leadership",
       image: "/placeholder.svg?height=300&width=300",
     },
     {
-      name: "Kuldip Bhuva",
-      role: "CFO",
+      name: "David Kim",
+      role: "Head of Design",
       experience: "8+ years",
-      expertise: "Financial Planning, Risk Management, Budgeting, Strategic Forecasting",
+      expertise: "UI/UX Design, Product Strategy",
       image: "/placeholder.svg?height=300&width=300",
     },
   ]
@@ -63,8 +63,8 @@ export default function AboutPage() {
   const stats = [
     { number: "500+", label: "Projects Completed" },
     { number: "150+", label: "Happy Clients" },
-    { number: "20+", label: "Team Members" },
-    { number: "5+", label: "Years Experience" },
+    { number: "100+", label: "Team Members" },
+    { number: "10+", label: "Years Experience" },
   ]
 
   return (
@@ -75,10 +75,10 @@ export default function AboutPage() {
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                About <span className="text-[#0081FB]">METABYTE</span>
+                About <span className="text-[#0081FB]">METABYTE.TECH</span>
               </h1>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                Empowering businesses through innovative technology solutions and expert IT services.
+                Empowering businesses through innovative technology solutions and expert IT outsourcing services.
               </p>
             </div>
           </div>
@@ -93,9 +93,9 @@ export default function AboutPage() {
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Our Story</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Founded in 2018, METABYTE began with a simple mission: to help businesses leverage technology for
+                  Founded in 2014, METABYTE.TECH began with a simple mission: to help businesses leverage technology for
                   growth and innovation. What started as a small team of passionate developers has grown into a
-                  comprehensive IT partner serving clients worldwide.
+                  comprehensive IT outsourcing partner serving clients worldwide.
                 </p>
                 <p>
                   Over the years, we've evolved from a development shop to a full-service technology partner, offering
@@ -155,7 +155,7 @@ export default function AboutPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  To be the global leader in IT, recognized for our technical excellence, innovative
+                  To be the global leader in IT outsourcing, recognized for our technical excellence, innovative
                   solutions, and unwavering commitment to client success and long-term partnerships.
                 </p>
               </CardContent>
