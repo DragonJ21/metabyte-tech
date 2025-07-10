@@ -40,7 +40,7 @@ export default function HomePage() {
             <div className="flex items-center justify-center">
               <div className="relative">
                 <img
-                  src="/placeholder.svg?height=400&width=600&text=Modern+Office+Team+Collaboration"
+                  src="/home_page.jpg?height=400&width=600&text=Modern+Office+Team+Collaboration"
                   alt="Modern office team working on technology solutions"
                   className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square shadow-lg"
                 />
@@ -67,7 +67,7 @@ export default function HomePage() {
               <CardHeader>
                 <div className="w-full h-48 bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg mb-4 flex items-center justify-center">
                   <img
-                    src="/placeholder.svg?height=200&width=300&text=Cloud+Infrastructure+Dashboard"
+                    src="/cloud_solution.jpg?height=200&width=300&text=Cloud+Infrastructure+Dashboard"
                     alt="Cloud Solutions Dashboard"
                     className="w-full h-full object-cover rounded-lg"
                   />
@@ -84,7 +84,7 @@ export default function HomePage() {
               <CardHeader>
                 <div className="w-full h-48 bg-gradient-to-br from-green-50 to-green-100 rounded-lg mb-4 flex items-center justify-center">
                   <img
-                    src="/placeholder.svg?height=200&width=300&text=Modern+Web+Application+Interface"
+                    src="/web_development.jpg?height=200&width=300&text=Modern+Web+Application+Interface"
                     alt="Web Development Interface"
                     className="w-full h-full object-cover rounded-lg"
                   />
@@ -101,7 +101,7 @@ export default function HomePage() {
               <CardHeader>
                 <div className="w-full h-48 bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg mb-4 flex items-center justify-center">
                   <img
-                    src="/placeholder.svg?height=200&width=300&text=Mobile+App+Development+Mockup"
+                    src="/mobile_development.jpg?height=200&width=300&text=Mobile+App+Development+Mockup"
                     alt="Mobile App Development"
                     className="w-full h-full object-cover rounded-lg"
                   />
