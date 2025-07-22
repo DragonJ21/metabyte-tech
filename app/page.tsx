@@ -7,6 +7,34 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Layout } from "@/components/layout"
 
+const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault()
+  setLoading(true)
+
+  const form = e.currentTarget
+  const formData = new FormData(form)
+
+  try {
+    const response = await fetch("https://formsubmit.co/rudraay0705@gmail.com", {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+      },
+      body: formData,
+    })
+
+    if (response.ok) {
+      setSubmitted(true)
+    } else {
+      alert("Something went wrong. Please try again.")
+    }
+  } catch (err) {
+    alert("Network error.")
+  } finally {
+    setLoading(false)
+  }
+}
+
 export default function HomePage() {
   return (
     <Layout>
